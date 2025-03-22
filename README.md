@@ -1,1 +1,0 @@
-# smini.com
