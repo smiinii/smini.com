@@ -6,14 +6,10 @@ h1 {
   margin: 0;
 }
 
-.content {
+.profile {
   display: flex;
   justify-content: center;
-  margin-top: 50;
-  gap: 40;
-}
-
-.info p {
-  margin: 10 0;
-  font-size: 18;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
 }
