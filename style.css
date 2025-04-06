@@ -1,7 +1,50 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body.portfolio {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #0e0e0e;
+  color: #d1d1d1;
+}
+
+body.portfolio h1, 
+body.portfolio h2, 
+body.portfolio h3 {
+  color: #00ffe7;
+}
+
+body.portfolio section {
+  background-color: #1a1a1a;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 255, 231, 0.1);
+}
+
+body.portfolio header,
+body.portfolio footer {
+  background-color: #1e1e1e;
   text-align: center;
-  background-color: royalblue;
-  color: white;
-  padding: 20px 0;
-  margin: 0;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+body.portfolio img {
+  max-width: 300px;
+  border: 2px solid #00ffe7;
+  border-radius: 10px;
+}
+
+body.portfolio a {
+  color: #00ffe7;
+  text-decoration: underline;
+}
+
+body.portfolio a:hover {
+  color: #88fff7;
 }
