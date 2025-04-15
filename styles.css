@@ -48,3 +48,52 @@ body.portfolio a {
 body.portfolio a:hover {
   color: #88fff7;
 }
+
+#focus-timer {
+  background-color: #121212;
+  border: 1px solid #00ffe7;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+#focus-timer button {
+  background-color: #00ffe7;
+  border: none;
+  color: #0e0e0e;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#focus-timer button:hover {
+  background-color: #00c2b4;
+}
+
+#status-msg {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#today-focus {
+  font-size: 1.2em;
+  margin: 15px 0;
+  color: #88fff7;
+}
+
+#focus-history {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#focus-history li {
+  padding: 5px 0;
+  border-bottom: 1px solid #2a2a2a;
+  font-size: 0.95em;
+}
